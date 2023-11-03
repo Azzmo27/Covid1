@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.ArrayList;
-
 public class Covid19Data {
     private String region;
     private String aldersGruppe;
@@ -21,6 +19,12 @@ public class Covid19Data {
         this.indlagte = indlagte;
 
     }
+    public String getAldersGruppe() {
+        return aldersGruppe;
+    }
+    public String getRegion() {
+        return region;
+    }
 
 
     @Override
@@ -36,4 +40,5 @@ public class Covid19Data {
     }
 
 
-    }
+
+}
